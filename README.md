@@ -1,4 +1,4 @@
-# translate-google-api
+# translate-google-fixed-api
 A free and unlimited API for Google Translate（support single text and Multi-segment text） 💵🚫
 # Feature
 
@@ -12,7 +12,7 @@ A free and unlimited API for Google Translate（support single text and Multi-se
 # Install
 
 ```shell
-npm install --save translate-google-api
+npm install --save translate-google-fixed-api
 ```
 
 # Why this repo ？
@@ -23,13 +23,13 @@ I don't want to translate all the text first and I'd like to translate segment b
 
 In the existing library, if I want to translate multi-segment text, I have to request multiple times.(like [google-translate-api](https://github.com/matheuss/google-translate-api))
 
-So I have to use the new api to implement, so the `translate-google-api` is born.
+So I have to use the new api to implement, so the `translate-google-fixed-api` is born.
 
 # Usage
 
 Single segment
 ```javascript
-import translate from 'translate-google-api';
+import translate from 'translate-google-fixed-api';
 const result = await translate(`I'm fine.`, {
   tld: "cn",
   to: "vi",
@@ -41,7 +41,7 @@ const result = await translate(`I'm fine.`, {
 
 Multi-segment text
 ```javascript
-import translate from 'translate-google-api';
+import translate from 'translate-google-fixed-api';
 
 const result = await translate(['Hi', 'How are you?', `I'm fine`], {
   tld: "cn",
