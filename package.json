@@ -1,5 +1,5 @@
 {
-  "name": "translate-google-api-fixed",
+  "name": "translate-google-fixed-api",
   "version": "1.0.0",
   "description": "A free and unlimited API for Google Translate (contains single and multiple)",
   "main": "index.js",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aleandro2000/translate-google-api-fixed"
+    "url": "https://github.com/Aleandro2000/translate-google-fixed-api"
   },
   "author": "Aleandro2000",
   "license": "ISC",
