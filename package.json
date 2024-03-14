@@ -14,6 +14,10 @@
     "react",
     "react-native"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aleandro2000/translate-google-api-fixed"
+  },
   "author": "Aleandro2000",
   "license": "ISC",
   "dependencies": {
