@@ -1,0 +1,22 @@
+{
+  "name": "translate-google-api-fixed",
+  "version": "1.0.0",
+  "description": "A free and unlimited API for Google Translate (contains single and multiple)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "translate",
+    "multiple",
+    "language",
+    "react",
+    "react-native"
+  ],
+  "author": "Aleandro2000",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
